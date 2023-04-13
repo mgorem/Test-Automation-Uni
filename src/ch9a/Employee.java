@@ -1,6 +1,13 @@
 package ch9a;
 
 public class Employee extends Person {
+    private String EmployeeId;
+    private String title;
+
+    public Employee(){
+        super("Orem");
+        System.out.println("In Employee default constructor");
+    }
     public String getEmployeeId() {
         return EmployeeId;
     }
@@ -16,8 +23,5 @@ public class Employee extends Person {
     public void setTitle(String title) {
         this.title = title;
     }
-
-    private String EmployeeId;
-    private String title;
 
 }
