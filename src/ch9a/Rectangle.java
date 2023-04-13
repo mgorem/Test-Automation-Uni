@@ -1,4 +1,4 @@
-package ch9c;
+package ch9a;
 
 public class Rectangle {
 
